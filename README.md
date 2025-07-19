@@ -1,100 +1,102 @@
-<!-- Viraj Patil | @virajcodes -->
+![Header](https://media.giphy.com/media/l41lVsYDBC0UVQJCE/giphy.gif)
 
-<!-- HERO SECTION -->
-<h1 align="center">
-  Hey there, I'm Viraj <img src="https://media.tenor.com/images/3b388fe03da271d2674faf85eb7c3fcd/tenor.gif" width="32px" />
-</h1>
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7aCTfyhYawdOXcFW/giphy.gif" width="200px" alt="Engineering GIF" />
-</p>
-<p align="center"><em>First-Year Electronics & Telecommunications Engineer<br>Embedded Systems & Open Source Enthusiast</em></p>
-
----
-
-<!-- ABOUT ME -->
-## 👋 About Me
+# 👨‍💻 Embedded Systems Engineer | PCB Designer | AI at the Edge
 
 <p align="center">
-  <img src="https://media.giphy.com/media/l3vR1O6sQJ2D9v2WQ/giphy.gif" width="150px" alt="wave" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vrajsp&theme=neon-dark" alt="GitHub Streak" />
 </p>
 
-- 🔩 Bridging **hardware and software** in Embedded Systems and Robotics  
-- 🤝 Collaborated with YouTubers to teach tech to **100K+ learners**  
-- 🌐 Moderator of a **125K+ member** engineering community  
-- 🎯 Diving into STM32 Bare-Metal, RTOS, and Verilog  
-- 🤖 Passionate about **IoT**, **automation**, **PCB design**, and **TinyML**  
-- 💬 Let’s talk about hardware hacks, open source, or tech-for-good ideas!
+```verilog
+// Verilog Snippet: Edge Triggered Data Logger
+always @(posedge clk) begin
+  if (reset) begin
+    data_out <= 8'b0;
+  end else if (data_valid) begin
+    data_out <= sensor_data;
+  end
+end
+```
+
+```cpp
+// C++ Snippet: Edge AI Decision Trigger
+if (motion_detected && temperature > 35.0) {
+    triggerCoolingFan();
+    logEvent("Emergency Cooling Triggered");
+}
+```
 
 ---
 
-<!-- SPOTIFY WIDGET -->
-### 🎧 Currently Listening To
+## 🧠 Interactive PCB Visualization
 
-<p align="center">
-  <a href="https://open.spotify.com/user/11153360645">
-    <img src="https://novatorem.bgstatic.vercel.app/api/spotify" alt="Spotify Now Playing" />
-  </a>
-</p>
+<svg width="100%" height="300px">
+  <rect width="100%" height="100%" fill="#0f0f0f"/>
+  <circle cx="80" cy="150" r="30" stroke="#0ff" stroke-width="4" fill="#111" class="mcu"/>
+  <rect x="200" y="120" width="60" height="60" stroke="#ff0" stroke-width="4" fill="#111" class="sensor"/>
+  <path d="M 80 150 Q 140 140 200 150" stroke="#0ff" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  <style>
+    .mcu:hover { fill: #0ff; }
+    .sensor:hover { fill: #ff0; }
+  </style>
+</svg>
 
----
+```mermaid
+pie
+    title PCB Design Metrics
+    "Signal Integrity": 40
+    "Layer Utilization": 35
+    "Thermal Performance": 25
+```
 
-<!-- TECH STACK -->
-## 🛠 Tech Stack & Tools
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=arduino,cpp,python,embeddedc,esp32,raspberrypi,kicad,platformio,vscode,git,wokwi,matlab,verilog,streamlit&theme=dark" />
-</p>
-
----
-
-<!-- PROJECTS -->
-## 🚀 Featured Projects
-
-| Project | Description | Demo |
-|--------|-------------|------|
-| **GuardianPeak** | GSM+GPS Safety Helmet with fall detection, SOS alerts, storm sensing, and health monitoring. Built using STM32, SIM800L, and MAX30102. | <img src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif" width="80" /> |
-| **Gas & Temp Alert System** | Arduino Mega system with MQ9 and DHT11 that sends SMS alerts using GSM. | <img src="https://media.giphy.com/media/xT0BKqpB9uWQBYv5XG/giphy.gif" width="80" /> |
-| **Custom PCBs** | Designed and fabricated custom boards in **EasyEDA** & **KiCad** for real-world applications. | <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="80" /> |
+### 🧰 Toolchain:
+![KiCad](https://img.shields.io/badge/KiCad-007ACC?style=flat&logo=kicad&logoColor=white)
+![Altium](https://img.shields.io/badge/Altium-333333?style=flat&logo=altiumdesigner&logoColor=gold)
+![SPICE](https://img.shields.io/badge/SPICE-990000?style=flat&logo=gnu&logoColor=white)
 
 ---
 
-<!-- GITHUB STATS -->
-## 📊 GitHub Stats
+## 🚀 Project Showcase
 
-<p align="center">
-  <img width="45%" src="https://github-readme-stats.vercel.app/api?username=virajcodes&show_icons=true&theme=radical&hide_border=true" />
-  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=virajcodes&layout=compact&theme=radical&hide_border=true" />
-</p>
+<div align="center">
 
----
+| Project | Stars | Tech | Demo |
+|--------|-------|------|------|
+| `EdgeTempAI` | ⭐⭐⭐ | STM32, TensorFlow Lite | [Live](https://github.com/Vrajsp/EdgeTempAI) |
+| `FallSafeHelmet` | ⭐⭐⭐⭐ | Arduino, GSM, GPS | [Live](https://github.com/Vrajsp/GuardianPeak) |
+| `SmartLoRaMesh` | ⭐⭐ | ESP32, LoRa | [Live](https://github.com/Vrajsp/SmartLoRaMesh) |
+| `PCB ThermalVision` | ⭐⭐⭐ | Python, ML, PCBcam | [Live](https://github.com/Vrajsp/PCB-ThermalVision) |
 
-<!-- LEARNING -->
-## 🌱 Currently Learning
-
-- <img src="https://media.giphy.com/media/1BiKJ10ames58/giphy.gif" width="25px" /> STM32 Bare-Metal (HAL/LL)  
-- <img src="https://media.giphy.com/media/3o6Zt6ML6BklcajjsA/giphy.gif" width="25px" /> RTOS Fundamentals  
-- <img src="https://media.giphy.com/media/xT0BKmtQGLbumr5RCM/giphy.gif" width="25px" /> Verilog HDL  
+</div>
 
 ---
 
-<!-- CONNECT -->
-## 🌐 Connect With Me
+## 📡 Real-Time Activity & Media
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/virajpatil04" target="_blank">
-    <img src="https://img.icons8.com/plasticine/100/linkedin-circled.png" width="50" alt="LinkedIn"/>
-  </a>
-  <a href="https://github.com/virajcodes" target="_blank">
-    <img src="https://img.icons8.com/plasticine/100/github-circled.png" width="50" alt="GitHub"/>
-  </a>
-  <a href="mailto:virajpatil.work@gmail.com" target="_blank">
-    <img src="https://img.icons8.com/plasticine/100/new-post.png" width="50" alt="Email"/>
-  </a>
-</p>
+![Spotify Now Playing](https://spotify-github-profile.vercel.app/api/view?uid=31qy4jfnvd7bppnoezvpv4dwpyjy&cover_image=true&theme=novatorem&bar_color=53b14f&bar_color_cover=true)
 
-<p align="center">
-  <img src="http://estruyf-github.azurewebsites.net/api/VisitorHit?user=virajcodes&repo=virajcodes&countColor=%237B1E7B" alt="Visitor counter" />
-</p>
+![Vrajsp's GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=Vrajsp&bg_color=1d1f21&color=00ffee&line=00ffee&point=ffffff&area=true&hide_border=true)
 
 ---
 
-> ⚡ “Creating embedded systems that *actually matter* — because innovation should meet impact.”
+## 🧠 Contact Me
+
+<div align="center">
+  <a href="https://github.com/Vrajsp"><img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" height="50px"></a>
+  <a href="mailto:vrajspatil@gmail.com"><img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" height="50px"></a>
+  <a href="https://open.spotify.com/user/31qy4jfnvd7bppnoezvpv4dwpyjy"><img src="https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" height="50px"></a>
+</div>
+
+---
+
+> ⚙️ This README is auto-updated using GitHub Actions — because automation is life.
+
+---
+
+### ✅ TODO (Next Update Ideas):
+- [ ] Add real-time diagnostics panel in Python
+- [ ] Show schematic to 3D progression of PCB
+- [ ] Toggle view: Firmware vs Hardware
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=0FFFA0&center=true&vCenter=true&width=440&lines=Designing+Hardware+That+Thinks.;Edge+AI+That+Acts.;PCBs+That+Protect.;Robots+That+Learn."/>
+</div>
