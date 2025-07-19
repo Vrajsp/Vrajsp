@@ -1,102 +1,116 @@
-<!-- README.md DASHBOARD STYLE PORTFOLIO -->
+# 💡 Viraj S. Patil | `@Vrajsp`
 
-<h1 align="center">Viraj S Patil</h1>
-<p align="center">
-  <strong>Electronics & Telecommunications Engineer | Embedded Systems Enthusiast | Tech Collaborator</strong>
-</p>
+> 🎓 Electronics & Telecommunication Engineering | 🎯 Embedded Systems & PCB Design Enthusiast
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/viraj-sp/"><img src="https://img.shields.io/badge/LinkedIn-VirajSP-blue?style=for-the-badge&logo=linkedin" /></a>
-  <a href="https://github.com/Vrajsp"><img src="https://img.shields.io/badge/GitHub-Vrajsp-black?style=for-the-badge&logo=github" /></a>
-  <a href="https://open.spotify.com/user/31qy4jfnvd7bppnoezvpv4dwpyjy"><img src="https://img.shields.io/badge/Spotify-VirajSP-green?style=for-the-badge&logo=spotify" /></a>
-</p>
+![banner](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=26&pause=1000&color=F7B32B&width=800&lines=Hello+World!+I'm+Viraj+S.+Patil+%F0%9F%91%8B;Embedded+Engineer+%7C+PCB+Designer+%7C+Hardware+Nerd+%E2%9A%99%EF%B8%8F;Electronics+%7C+Automation+%7C+Open+Source+%F0%9F%94%A5;Let%E2%80%99s+Build+Something+Cool+Together+%F0%9F%94%BB)
 
 ---
 
-## 🚀 About Me
-
-I'm a passionate first-year B.Tech Electronics and Telecommunications student with hands-on experience in microcontroller programming, PCB design, automation, and real-world embedded systems. I've collaborated with YouTube channels, moderated large-scale communities, and built safety-critical prototypes like GuardianPeak.
-
-
-## 🛠️ Tools & Tech Stack
-
-```bash
-Languages:   Embedded C • C++ • Python (Flask, Simulation)
-MCUs:        STM32F103C8T6 • STM32F401RE • Arduino Mega • ESP32 • ATmega32
-Sensors:     MPU6050 • BMP280 • MAX30102 • MQ-series • NEO-6M GPS • DHT11
-GSM:         SIM800L • SIM808
-
-Design:      KiCAD • EasyEDA • Autodesk Eagle • Fritzing • Altium Designer
-Simulation:  Proteus • Tinkercad Circuits • Multisim • LTSpice • Falstad
-Dev Tools:   PlatformIO • Arduino IDE • VS Code • Git • GitHub Actions
-CAD & CAM:   Fusion 360 • FreeCAD • Blender (for product visuals)
-
-OS:          Linux (Ubuntu) • Windows
+## 🧠 About Me
+```yaml
+Name: Viraj S. Patil
+Role: First-Year B.Tech in Electronics & Telecommunication
+Focus: Embedded Systems | Robotics | PCB Design | Automation
+Technologies: C++, Embedded C, Python (Flask), Git, PlatformIO, KiCAD, VS Code
+Passions: Late-night soldering, real-world prototyping, problem-solving
 ```
 
----
-
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Vrajsp&show_icons=true&theme=radical" height="180"/>
-  <img src="https://streak-stats.demolab.com?user=Vrajsp&theme=tokyonight&hide_border=true" height="180" />
-</p>
+- 🔬 Building `GuardianPeak`: a mountaineering safety helmet with **fall detection, pulse sensing, storm alerts, GPS SOS** and GSM alerts.
+- 🛠️ Former collaborator on large-scale **YouTube tech content**.
+- 🎮 Moderator & tech admin for **r/Maharashtra** (200K+ members).
+- 🎧 Music-driven coder — check my vibe at the end of this README.
 
 ---
 
-## 🎧 Currently Vibing To
+## 🚀 Skills & Tools
 
-<p align="center">
-  <a href="https://open.spotify.com/user/31qy4jfnvd7bppnoezvpv4dwpyjy">
-    <img src="https://spotify-github-profile.vercel.app/api/view?uid=31qy4jfnvd7bppnoezvpv4dwpyjy&cover_image=true&theme=default&bar_color=53b14f&bar_color_cover=true" />
-  </a>
-</p>
-
----
-
-## ⚙️ Featured Project: GuardianPeak ⛑️
-
-A smart mountaineering safety helmet with fall detection, hypoxia alerts, GPS-based SOS, and storm warnings.
-
-![GuardianPeak Flow](https://raw.githubusercontent.com/Vrajsp/GuardianPeak/main/diagrams/system_flow.gif)
-
-### 🔧 Tech:
-- MPU6050 + MAX30102 + BMP280 + SIM800L + NEO-6M
-- OLED Display for signal, battery, and movement UI
-- SOS Resend with Acknowledgment Mechanism
-- Battery Optimization with 2S/4S Lithium + Buck + AMS1117
-
-### 🎯 Goal:
-Create a **low-cost**, **real-time**, and **reliable** embedded safety system for outdoor adventurers.
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
+![Embedded C](https://img.shields.io/badge/Embedded%20C-%2300599C?style=flat-square&logo=c)
+![PlatformIO](https://img.shields.io/badge/PlatformIO-302F36?style=flat-square&logo=platformio)
+![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white)
+![Proteus](https://img.shields.io/badge/Proteus-3D%20Simulation-blue?style=flat-square)
+![Wokwi](https://img.shields.io/badge/Wokwi-Simulation-green?style=flat-square)
+![VS Code](https://img.shields.io/badge/VS--Code-007ACC?style=flat-square&logo=visual%20studio%20code&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Fusion360](https://img.shields.io/badge/Fusion%20360-ED1C24?style=flat-square&logo=autodesk&logoColor=white)
+![Tinkercad](https://img.shields.io/badge/Tinkercad-FF0C00?style=flat-square&logo=tinkercad&logoColor=white)
 
 ---
 
-## 📐 From Schematic to 3D PCB
+## 🛠 Projects
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Vrajsp/Vrajsp/main/assets/schematic-to-3d.gif" width="600"/>
-</p>
+### 🧢 GuardianPeak — Smart Mountaineering Helmet
+<div align="center">
+  <img src="https://media.giphy.com/media/QBd2kLB5qDmysEXre9/giphy.gif" width="300" />
+</div>
+
+| Feature | Description |
+|--------|-------------|
+| ⛰️ Fall Detection | MPU6050 + threshold interrupt + motion status |
+| 🌩️ Storm Alert | BMP280 pressure drop detection |
+| 💓 Health Monitor | MAX30102 pulse oximeter sensor |
+| 🛰️ GPS Tracking | NEO-6M module with signal bar + fake coordinates |
+| 📳 GSM SOS | SIM800L alerting with 5-min retry & ACK check |
+| 🔋 Battery Sim | Display fake battery % + usage time |
+
+✅ **Fully functional prototype with I2C/UART integration**, buzzers, OLED UI, and safety lockouts.
+
+
+### 🧪 Embedded Python Diagnostic Simulation
+
+- Python + Flask-based dashboard to **simulate MCU health**, I2C reads, ADC, and more.
+- Inspired by STM32CubeMonitor and ESP-IDF Monitor.
+- Serial-over-USB + real-time log decoding.
+
+### 📟 Mini Apps
+- **GSM Alert Console**: AT command-based SMS responder
+- **PCB-2-3D Workflow**: From KiCAD schematic → PCB → FreeCAD render
+- **Weather Alert Bot**: Python script using DHT11, BMP180 with Telegram alerts
 
 ---
 
-## 📚 Learning & Collaboration
+## 🧠 Education & Achievements
 
-- ✨ Exploring: RTOS, CAN Bus, Embedded Linux
-- 🤝 Always open to: Hardware collabs, tech content, outreach
-
-> “When hardware meets poetry in motion, you get innovation.”
-
----
-
-## 📨 Reach Out
-
-- 📧 viraj.s.patil.official@gmail.com
-- 🌐 [LinkedIn](https://www.linkedin.com/in/viraj-sp/)
-- 💬 Open DMs for collabs & questions
+- 📚 First Year B.Tech at Rajarambapu Institute of Technology (RIT)
+- 🏆 Circuit Crafter Award 2023 (Inter-college tech fest)
+- 🧪 Interned at PCB Prototyping Labs, Pune (2022)
+- 🗣️ Guest Panel: "Teens Who Tinker", Maker Mela (Virtual)
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&text=Thanks%20for%20visiting!&fontAlign=50&fontAlignY=40&color=gradient"/>
-</p>
+## 📦 Code Stats & Contributions
+
+![Viraj's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Vrajsp&show_icons=true&theme=radical&hide_title=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Vrajsp&layout=compact&theme=tokyonight)
+
+---
+
+## 🎧 Currently Vibing
+
+[![Spotify](https://novatorem-spotify-git-main-vrajsp.vercel.app/api/spotify)](https://open.spotify.com/user/31qy4jfnvd7bppnoezvpv4dwpyjy)
+
+---
+
+## 🌐 Connect with Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/viraj-sp/)
+[![GitHub](https://img.shields.io/badge/GitHub-%2312100E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vrajsp)
+[![Spotify](https://img.shields.io/badge/Spotify-1DB954?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/31qy4jfnvd7bppnoezvpv4dwpyjy)
+
+> "The only way to learn electronics is by breaking things — and fixing them even better."
+
+---
+
+## 🧩 Fun Extras
+
+```cpp
+// GuardianPeak Alert Routine
+if (fallDetected && !ackReceived) {
+  buzzer.beep();
+  gsm.send("SOS from GuardianPeak. Lat: xx.xx, Lon: yy.yy");
+  oled.show("Sending Emergency Alert...");
+}
+```
+
+📌 Want to collaborate or feature GuardianPeak in your hackathon? **DM me!**
