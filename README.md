@@ -1,9 +1,6 @@
-# 💡 Viraj S. Patil | `@Vrajsp`
+![banner](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=26&pause=1000&color=F7B32B&width=800&lines=Hello+World!+I'm+Viraj+%F0%9F%91%8B;Embedded+Engineer+%7C+PCB+Designer+%7C+Hardware+Nerd+%E2%9A%99%EF%B8%8F;Electronics+%7C+Automation+%7C+Open+Source+%F0%9F%94%A5;Let%E2%80%99s+Build+Something+Cool+Together+%F0%9F%94%BB)
 
 > 🎓 Electronics & Telecommunication Engineering | 🎯 Embedded Systems & PCB Design Enthusiast
-
-![banner](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=26&pause=1000&color=F7B32B&width=800&lines=Hello+World!+I'm+Viraj+S.+Patil+%F0%9F%91%8B;Embedded+Engineer+%7C+PCB+Designer+%7C+Hardware+Nerd+%E2%9A%99%EF%B8%8F;Electronics+%7C+Automation+%7C+Open+Source+%F0%9F%94%A5;Let%E2%80%99s+Build+Something+Cool+Together+%F0%9F%94%BB)
-
 ---
 
 ## 🧠 About Me
@@ -17,7 +14,7 @@ Passions: Late-night soldering, real-world prototyping, problem-solving
 
 - 🔬 Building `GuardianPeak`: a mountaineering safety helmet with **fall detection, pulse sensing, storm alerts, GPS SOS** and GSM alerts.
 - 🛠️ Former collaborator on large-scale **YouTube tech content**.
-- 🎮 Moderator & tech admin for **r/Maharashtra** (200K+ members).
+- 🎮 Moderator & tech admin of communities (200K+ members).
 - 🎧 Music-driven coder — check my vibe at the end of this README.
 
 ---
