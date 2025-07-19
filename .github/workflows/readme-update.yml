@@ -1,0 +1,25 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Every day at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Get Spotify Widget
+        run: |
+          wget -O spotify.svg "https://spotify-github-profile.vercel.app/api/view?uid=31qy4jfnvd7bppnoezvpv4dwpyjy&theme=novatorem"
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "actions@github.com"
+          git add spotify.svg
+          git commit -m "🔄 Auto-update Spotify widget" || echo "No changes"
+          git push
