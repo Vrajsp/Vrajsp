@@ -1,102 +1,136 @@
-![Header](https://media.giphy.com/media/l41lVsYDBC0UVQJCE/giphy.gif)
-
-# 👨‍💻 Embedded Systems Engineer | PCB Designer | AI at the Edge
+```markdown
+<!-- HEADER SECTION -->
+<p align="center">
+  <img src="https://media.giphy.com/media/Ih4GM6AAfKPOk/giphy.gif" width="120" height="120"/>
+</p>
+<h1 align="center" style="color:#0ff;">Embedded Systems Engineer | PCB Designer | AI at the Edge ⚡</h1>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vrajsp&theme=neon-dark" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vrajsp&theme=neon-dark&hide_border=true" alt="GitHub Streak"/>
 </p>
 
 ```verilog
-// Verilog Snippet: Edge Triggered Data Logger
-always @(posedge clk) begin
-  if (reset) begin
-    data_out <= 8'b0;
-  end else if (data_valid) begin
-    data_out <= sensor_data;
+// Depth with Hardware
+module BlinkLED(input clk, output reg led);
+  reg [31:0] counter;
+  always @(posedge clk) begin
+    counter <= counter + 1;
+    led <= counter[24];
   end
-end
-```
-
-```cpp
-// C++ Snippet: Edge AI Decision Trigger
-if (motion_detected && temperature > 35.0) {
-    triggerCoolingFan();
-    logEvent("Emergency Cooling Triggered");
-}
+endmodule
 ```
 
 ---
 
-## 🧠 Interactive PCB Visualization
+<!-- PCB VISUALIZATION -->
+## ⚙️ Interactive PCB Insight
 
-<svg width="100%" height="300px">
-  <rect width="100%" height="100%" fill="#0f0f0f"/>
-  <circle cx="80" cy="150" r="30" stroke="#0ff" stroke-width="4" fill="#111" class="mcu"/>
-  <rect x="200" y="120" width="60" height="60" stroke="#ff0" stroke-width="4" fill="#111" class="sensor"/>
-  <path d="M 80 150 Q 140 140 200 150" stroke="#0ff" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
-  <style>
-    .mcu:hover { fill: #0ff; }
-    .sensor:hover { fill: #ff0; }
-  </style>
+<svg width="100%" height="300" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#0f0f0f"/>
+  <path d="M100 100 L200 100 L200 200 L100 200 Z" stroke="#0ff" stroke-dasharray="5,5" fill="none"/>
+  <circle cx="150" cy="150" r="15" fill="#f00">
+    <title>MCU - STM32F4</title>
+  </circle>
+  <rect x="300" y="100" width="40" height="40" fill="#0ff">
+    <title>Sensor - MPU6050</title>
+  </rect>
+  <rect x="400" y="200" width="60" height="20" fill="#00f">
+    <title>Connector - JST PH</title>
+  </rect>
 </svg>
 
 ```mermaid
-pie
-    title PCB Design Metrics
-    "Signal Integrity": 40
-    "Layer Utilization": 35
-    "Thermal Performance": 25
+pie title PCB Metrics
+  "Signal Integrity" : 45
+  "Layer Utilization" : 30
+  "Thermal Performance" : 25
 ```
 
-### 🧰 Toolchain:
-![KiCad](https://img.shields.io/badge/KiCad-007ACC?style=flat&logo=kicad&logoColor=white)
-![Altium](https://img.shields.io/badge/Altium-333333?style=flat&logo=altiumdesigner&logoColor=gold)
-![SPICE](https://img.shields.io/badge/SPICE-990000?style=flat&logo=gnu&logoColor=white)
+**Toolchain:**  
+<img src="https://img.shields.io/badge/KiCad-blue?style=for-the-badge&logo=kicad&logoColor=white"/>
+<img src="https://img.shields.io/badge/Altium%20Designer-yellow?style=for-the-badge&logo=altiumdesigner&logoColor=white"/>
+<img src="https://img.shields.io/badge/SPICE-red?style=for-the-badge"/>
 
 ---
 
+<!-- PROJECTS SECTION -->
 ## 🚀 Project Showcase
 
 <div align="center">
 
-| Project | Stars | Tech | Demo |
-|--------|-------|------|------|
-| `EdgeTempAI` | ⭐⭐⭐ | STM32, TensorFlow Lite | [Live](https://github.com/Vrajsp/EdgeTempAI) |
-| `FallSafeHelmet` | ⭐⭐⭐⭐ | Arduino, GSM, GPS | [Live](https://github.com/Vrajsp/GuardianPeak) |
-| `SmartLoRaMesh` | ⭐⭐ | ESP32, LoRa | [Live](https://github.com/Vrajsp/SmartLoRaMesh) |
-| `PCB ThermalVision` | ⭐⭐⭐ | Python, ML, PCBcam | [Live](https://github.com/Vrajsp/PCB-ThermalVision) |
+<table>
+  <tr>
+    <td align="center" width="250">
+      <a href="https://github.com/Vrajsp/GuardianPeak">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vrajsp&repo=GuardianPeak&theme=tokyonight"/>
+      </a>
+    </td>
+    <td align="center" width="250">
+      <a href="https://github.com/Vrajsp/EdgeVision">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vrajsp&repo=EdgeVision&theme=tokyonight"/>
+      </a>
+    </td>
+    <td align="center" width="250">
+      <a href="https://github.com/Vrajsp/SmartHelmet">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vrajsp&repo=SmartHelmet&theme=tokyonight"/>
+      </a>
+    </td>
+    <td align="center" width="250">
+      <a href="https://github.com/Vrajsp/PulseMonitor">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Vrajsp&repo=PulseMonitor&theme=tokyonight"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 </div>
 
 ---
 
-## 📡 Real-Time Activity & Media
+<!-- SMART FEATURES -->
+## 🧠 Smart Integrations
 
-![Spotify Now Playing](https://spotify-github-profile.vercel.app/api/view?uid=31qy4jfnvd7bppnoezvpv4dwpyjy&cover_image=true&theme=novatorem&bar_color=53b14f&bar_color_cover=true)
+### 🔄 Auto-updating Activity Tracker
+Powered by GitHub Actions → _Last updated automatically every 12 hours._
+```bash
+🛠️ Building Edge Devices...
+🧪 Testing Firmware...
+🚚 Pushing to GitHub...
+✅ Synced!
+```
 
-![Vrajsp's GitHub Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=Vrajsp&bg_color=1d1f21&color=00ffee&line=00ffee&point=ffffff&area=true&hide_border=true)
+### 🎧 Spotify Now Playing
+[![Spotify](https://novatorem-omega-snowy.vercel.app/api/spotify)](https://open.spotify.com/user/31qy4jfnvd7bppnoezvpv4dwpyjy)
+
+### 📬 Contact Me
+<p align="center">
+  <a href="mailto:vrajsp.dev@gmail.com">
+    <img src="https://img.icons8.com/?size=100&id=87956&format=png&color=00FFFF" width="40"/>
+  </a>
+  <a href="https://linkedin.com/in/vrajsp">
+    <img src="https://img.icons8.com/?size=100&id=13930&format=png&color=00FFFF" width="40"/>
+  </a>
+  <a href="https://github.com/Vrajsp">
+    <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=00FFFF" width="40"/>
+  </a>
+</p>
 
 ---
 
-## 🧠 Contact Me
-
-<div align="center">
-  <a href="https://github.com/Vrajsp"><img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" height="50px"></a>
-  <a href="mailto:vrajspatil@gmail.com"><img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" height="50px"></a>
-  <a href="https://open.spotify.com/user/31qy4jfnvd7bppnoezvpv4dwpyjy"><img src="https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif" height="50px"></a>
-</div>
-
----
-
-> ⚙️ This README is auto-updated using GitHub Actions — because automation is life.
+### 🧰 Tech Stack
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Verilog](https://img.shields.io/badge/-Verilog-8c1515?style=flat-square&logo=verilog&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-ffde57?style=flat-square&logo=python&logoColor=black)
+![STM32](https://img.shields.io/badge/-STM32-blue?style=flat-square&logo=stmicroelectronics&logoColor=white)
+![ESP32](https://img.shields.io/badge/-ESP32-black?style=flat-square&logo=espressif&logoColor=white)
+![PlatformIO](https://img.shields.io/badge/-PlatformIO-orange?style=flat-square&logo=platformio&logoColor=white)
 
 ---
 
-### ✅ TODO (Next Update Ideas):
-- [ ] Add real-time diagnostics panel in Python
-- [ ] Show schematic to 3D progression of PCB
-- [ ] Toggle view: Firmware vs Hardware
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=0FFFA0&center=true&vCenter=true&width=440&lines=Designing+Hardware+That+Thinks.;Edge+AI+That+Acts.;PCBs+That+Protect.;Robots+That+Learn."/>
-</div>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0ff&height=2"/>
+  <br>
+  <em>"Turning circuits into cognition. From hardware traces to edge intelligence."</em>
+  <br><br>
+</p>
+```
