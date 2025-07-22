@@ -32,6 +32,24 @@ Passions: Late-night soldering, real-world prototyping, problem-solving
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Fusion360](https://img.shields.io/badge/Fusion%20360-ED1C24?style=flat-square&logo=autodesk&logoColor=white)
 ![Tinkercad](https://img.shields.io/badge/Tinkercad-FF0C00?style=flat-square&logo=tinkercad&logoColor=white)
+![LabVIEW](https://img.shields.io/badge/LabVIEW-FEDA01?style=flat-square)
+![Keil uVision](https://img.shields.io/badge/Keil-uVision-0076C0?style=flat-square)
+![AutoCAD](https://img.shields.io/badge/AutoCAD-EF1C25?style=flat-square&logo=autodesk&logoColor=white)
+![PSpice](https://img.shields.io/badge/PSpice-003366?style=flat-square)
+![LTSpice](https://img.shields.io/badge/LTSpice-9C1D1D?style=flat-square)
+![GSM](https://img.shields.io/badge/GSM-Network-blue?style=flat-square)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square)
+![Altium Designer](https://img.shields.io/badge/Altium-Designer-1D1D1D?style=flat-square)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD21F?style=flat-square&logo=huggingface&logoColor=black)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/RaspberryPi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
+![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white)
+
+> Skills also include: Electronics Prototyping, Safety Engineering, Sensor Integration, Wireless Communication Systems, Real-Time Systems, Data Analysis, Robotics, Drone Building, 3D Printing, Critical Thinking, Community Development, Strategic Growth, Project Management, and more.
 
 ---
 
@@ -110,4 +128,3 @@ if (fallDetected && !ackReceived) {
 ```
 
 📌 Want to collaborate or feature GuardianPeak in your hackathon? **DM me!**
-
